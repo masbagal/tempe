@@ -25,7 +25,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "tempejs",
+  "name": "tempe",
   "author": "masbagal",
   "module": "dist/tempejs.esm.js",
   "devDependencies": {
