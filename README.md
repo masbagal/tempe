@@ -27,8 +27,7 @@ import tempe from 'tempe';
 tempe(2020, 0, 13).format('dd, DD MMM YYYY'); // "Monday, 13 Jan 2020"
 
 // pass existing Date object to tempe
-const sampleDate = new Date(2020, 0, 13);
-tempe(sampleDate).format('dd, DD MMM YYYY'); // "Monday, 13 Jan 2020"
+tempe(new Date(2020, 0, 13)).format('dd, DD MMM YYYY'); // "Monday, 13 Jan 2020"
 
 // time formatting
 tempe(2020, 2, 25, 23, 59).format('DD MMMM YYYY hh:mm:ss'); // "25 March 2020 23:59:00"
