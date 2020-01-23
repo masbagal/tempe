@@ -9,10 +9,10 @@ Name is taken from `tempo` and [tempe](https://en.wikipedia.org/wiki/Tempeh)
 
 ## 📦 Install
 
-```sh
+```
 $ yarn add tempe
 
-# or
+ or
 
 $ npm install tempe --save
 ```
