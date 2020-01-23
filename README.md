@@ -4,6 +4,8 @@
 
 Sometimes all you need is just a simple date formatting without all of those super powers.
 
+Name is taken from `tempo` and [tempe](https://en.wikipedia.org/wiki/Tempeh)
+
 
 ## 📦 Install
 
