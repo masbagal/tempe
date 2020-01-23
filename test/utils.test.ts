@@ -1,4 +1,4 @@
-import { parseStringFormat, mapStringFormatToValue } from '../src/utils';
+import { parseStringFormat } from '../src/utils';
 
 describe('parseStringFormat', () => {
   it('should get the accepted format', () => {
@@ -15,19 +15,5 @@ describe('parseStringFormat', () => {
 
     const result2 = ['dd', 'DD', 'MMM', 'YYYY'];
     expect(parseStringFormat('dd, DD MMM YYYY 1230')).toEqual(result2);
-  });
-});
-
-describe('mapStringFormatToValue', () => {
-  it('convert format to value', () => {
-    const dateExample = new Date(2019, 0, 13);
-    const result1 = {
-      YYYY: '2019',
-      MMM: 'Jan',
-      DD: '13',
-    };
-    expect(mapStringFormatToValue(dateExample, ['YYYY', 'MMM', 'DD'])).toEqual(
-      result1
-    );
   });
 });

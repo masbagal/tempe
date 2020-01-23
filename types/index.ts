@@ -1,4 +1,4 @@
-type Locale = 
+export type Locale = 
       'af' |
       'af-NA' |
       'af-ZA' |
@@ -519,5 +519,8 @@ type Locale =
       'zu' |
       'zu-ZA';
 
-export default Locale;
-  
+
+
+export type TempeDateType = {
+format: (stringFormat: string, locale: Locale) => string
+} & Date;
