@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.5",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,5 +35,14 @@
     "tslib": "^1.10.0",
     "typescript": "^3.7.5"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "date",
+    "javascript",
+    "typescript",
+    "date-formatter",
+    "date",
+    "time",
+    "moment"
+  ]
 }
