@@ -2,8 +2,10 @@
 
 > Simple and lightweight (< 2kB) helper for date formatting
 
-> Sometimes all you need is just a simple date formatting without all of those super powers.
-## Install
+Sometimes all you need is just a simple date formatting without all of those super powers.
+
+
+## 📦 Install
 
 ```sh
 $ yarn add tempe
@@ -13,7 +15,7 @@ $ yarn add tempe
 $ npm install tempe --save
 ```
 
-## Usage
+## 💻 Usage
 Use the default export, and pass existing date object or you can initialize it like normal Javascript Date object.
 
 ```js
@@ -32,7 +34,7 @@ tempe(2020, 2, 25, 23, 59).format('H at DD/MM/YYYY'); // "11 PM at 25/03/2020"
 
 ```
 
-## i18n
+## 🌐 i18n
 Tempe supports internationalization by specifying the locale while formatting
 
 ```js
@@ -44,7 +46,7 @@ tempe(2020, 5, 13).format('DD MMM YYYY', 'id'); // "13 Tháng 6 2020"
 
 ```
 
-#### List of all available formats
+## 📝 List of all available formats
 
 | Format | Output           | Description                           |
 | ------ | ---------------- | ------------------------------------- |
