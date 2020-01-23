@@ -1,6 +1,6 @@
 # Tempe
 
-> Simple and lightweight (< 2kB) helper for date formatting
+> Featherlight (< 2kB) helper for Javascript date formatting
 
 Sometimes all you need is just a simple date formatting without all of those super powers.
 
