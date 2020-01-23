@@ -43,7 +43,7 @@ import tempe from 'tempe';
 
 tempe(2020, 5, 13).format('DD MMM YYYY', 'ja'); // "13日 6月 2020年"
 tempe(2020, 5, 13).format('DD MMM YYYY', 'vi'); // "13 Tháng 6 2020"
-tempe(2020, 5, 13).format('DD MMM YYYY', 'id'); // "13 Tháng 6 2020"
+tempe(2020, 5, 13).format('DD MMM YYYY', 'id'); // "13 Juni 2020"
 
 ```
 
