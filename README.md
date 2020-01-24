@@ -1,5 +1,8 @@
 # Tempe
-![screenshot](logo/tempe.png)
+<center>
+<img src='logo/tempe.png' height='90' align="center" alt='Tempe Logo' aria-label='redux.js.org' />
+</center>
+
 > Featherlight (< 2kB) helper for Javascript date formatting
 
 Sometimes all you need is just a simple date formatting without all of those super powers.
@@ -18,7 +21,7 @@ $ npm install tempe --save
 ```
 
 ## 💻 Usage
-Use the default export, and pass existing date object or you can initialize it like normal Javascript Date object.
+Use the default export, pass existing date object or you can initialize it like normal Javascript Date object.
 
 ```js
 import tempe from 'tempe';
