@@ -1,6 +1,6 @@
-# Tempe
+
 <center>
-<img src='logo/tempe.png' height='90' align="center" alt='Tempe Logo' aria-label='redux.js.org' />
+<img src='logo/tempe.png' height='120' align="center" alt='Tempe Logo' />
 </center>
 
 > Featherlight (< 2kB) helper for Javascript date formatting
