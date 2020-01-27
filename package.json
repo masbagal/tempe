@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -13,6 +13,14 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:masbagal/tempe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/masbagal/tempe/issues"
+  },
+  "homepage": "https://github.com/masbagal/tempe",
   "peerDependencies": {},
   "husky": {
     "hooks": {
