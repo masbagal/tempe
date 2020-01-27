@@ -1,11 +1,12 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.8",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "description": "Featherlight (< 2kB) helper for simple javascript date formatting without all of those superpowers",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
