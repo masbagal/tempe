@@ -4,7 +4,7 @@ export function parseStringFormat(stringFormat: string): Array<string> {
   return matchedFormats;
 }
 
-const PADDED_FORMATS: Array<string> = ['hh', 'DD', 'mm', 'ss', 'hh'];
+const PADDED_FORMATS: Array<string> = ['hh', 'DD', 'mm', 'ss', 'HH'];
 const FORMATS: any = {
   YYYY: { year: 'numeric' },
   YYY: { year: 'numeric' },
