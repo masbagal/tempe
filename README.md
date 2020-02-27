@@ -65,6 +65,7 @@ tempe(2020, 5, 13).format('DD MMM YYYY', 'id'); // "13 Juni 2020"
 | `dd`   | Sun-Sat            | The short name of the day of the week   |
 | `ddd` | Sunday-Saturday  | The name of the day of the week       |
 | `H`    | 0-23 AM/PM            | The hour with AM/PM                             |
+| `HH`    | 0-23 AM/PM            | The hour with AM/PM                             |
 | `h`    | 01-12             | The hour, 12-hour clock               |
 | `hh`   | 01-12            | The hour, 12-hour clock     |
 | `m`    | 0-59             | The minute                            |
