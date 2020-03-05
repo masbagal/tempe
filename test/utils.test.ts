@@ -1,4 +1,4 @@
-import { parseStringFormat } from '../src/utils';
+import { parseStringFormat, translateValue } from '../src/utils';
 
 describe('parseStringFormat', () => {
   it('should get the accepted format', () => {
@@ -15,5 +15,27 @@ describe('parseStringFormat', () => {
 
     const result2 = ['dd', 'DD', 'MMM', 'YYYY'];
     expect(parseStringFormat('dd, DD MMM YYYY 1230')).toEqual(result2);
+  });
+});
+
+describe('translateValue', () => {
+  const locale = 'en';
+
+  it('should get hour value', () => {
+    const formatTime = 'hh',
+      result = '03';
+
+    expect(
+      translateValue(new Date('2017-01-10 03:04:05.678'), formatTime, locale)
+    ).toEqual(result);
+  });
+
+  it('should get date value', () => {
+    const formatTime = 'DD',
+      result = '10';
+
+    expect(
+      translateValue(new Date('2017-01-10 03:04:05.678'), formatTime, locale)
+    ).toEqual(result);
   });
 });
