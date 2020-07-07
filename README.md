@@ -50,6 +50,42 @@ tempe(2020, 5, 13).format('DD MMM YYYY', 'id'); // "13 Juni 2020"
 
 ```
 
+### Calendar Types
+
+Meanwhile, some locale have their own default calendar type. For example, if you're using a Thailand locale it will generate a Buddhist calendar that show a different year than standard gregorian calendar.
+```js
+tempe(2020, 5, 13).format('DD MMM YYYY', 'th'); // 13 มิถุนายน พ.ศ. 2563
+```
+
+You can change it by providing the calendar type in the third optional parameter of `format()` function.
+
+```js
+// change calendar type to gregorian
+tempe(2020, 5, 13).format('DD MMM YYYY', 'th', 'gregory' ); // 13 มิถุนายน พ.ศ. 2020
+
+// change calendar type to islamic
+tempe(2020, 5, 13).format('DD MMM YYYY', 'id', 'islamic' ); // 22 Syawal 1441 H
+
+```
+
+Possible values for this parameter includes: 
+- `"buddhist"`
+- `"chinese"`
+- `"coptic"`
+- `"ethiopia"`
+- `"ethiopic"`
+- `"gregory"`
+- `"hebrew"`
+- `"indian"`
+- `"islamic"`
+- `"iso8601"`
+- `"japanese"`
+- `"persian"`
+- `"roc"`
+
+This is an optional parameter. By leaving this parameter empty, the date will be generated using the default type of provided locale.
+
+
 ## 📝 List of all available formats
 
 | Format | Output           | Description                           |
