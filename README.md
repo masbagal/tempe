@@ -7,7 +7,7 @@
 
 Sometimes all you need is just a simple date formatting without all of those super powers.
 
-Name is taken from `tempo` and [tempe](https://en.wikipedia.org/wiki/Tempeh)
+Name is a play from [tempus](https://en.wikipedia.org/wiki/Tempus), Latin word meaning time  and [tempe](https://en.wikipedia.org/wiki/Tempeh) an Indonesian traditional food.
 
 
 ## 📦 Install
