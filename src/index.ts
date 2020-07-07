@@ -1,4 +1,4 @@
-import { Locale } from '../types';
+import { Locale, CalendarType } from '../types';
 import { parseStringFormat, translateValue } from './utils';
 
 class TempeDate {
@@ -9,12 +9,28 @@ class TempeDate {
     return this;
   }
 
-  format(stringFormat: string, locale?: Locale) {
+  /**
+   * Format the inputted date object
+   * @param stringFormat printed format such as DD MMM YYYY
+   * @param locale locale code with BCP 47 standard language tag
+   * @param calendarType the calendar types, usually affect the year. Possible input includes but not limited to "gregory", "buddhist", "islamic", "japanese"
+   * @returns string
+   */
+  format(stringFormat: string, locale?: Locale, calendarType?: CalendarType) {
     const processedLocale = locale || 'en';
+
+    /**  Some locale defaulted to their own calendar (e.g. Thailand that automatically use Buddhist year),
+    /*   while sometimes we want to use standard gregorian calendar
+    /*   For reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
+    */
+    const processedLocaleWithCalendarType = calendarType
+      ? `${processedLocale}-u-ca-${calendarType}`
+      : processedLocale;
+
     const matchedFormatsFromString = parseStringFormat(stringFormat);
     const mappedValues = this.mapAvailableStringFormatToValue(
       matchedFormatsFromString,
-      processedLocale
+      processedLocaleWithCalendarType
     );
 
     const keys = Object.keys(mappedValues);
@@ -30,7 +46,7 @@ class TempeDate {
 
   mapAvailableStringFormatToValue(
     stringFormats: Array<string>,
-    locale: Locale
+    locale: Locale | string
   ) {
     const values = stringFormats.reduce(
       (valueMap: any, currentStringFormat) => {
