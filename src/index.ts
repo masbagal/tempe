@@ -1,4 +1,4 @@
-import { Locale, CalendarType } from '../types';
+import { Locale, CalendarType } from './types';
 import { parseStringFormat, translateValue } from './utils';
 
 class TempeDate {
