@@ -97,7 +97,7 @@ This is an optional parameter. By leaving this parameter empty, the date will be
 | `MMM`  | Jan-Dec          | The abbreviated month name            |
 | `MMMM` | January-December | The full month name                   |
 | `D`    | 1-31             | The day of the month                  |
-| `DD`   | 01-31            | The day of the month        |
+| `DD`   | 01-31            | The day of the month, 2-digits        |
 | `dd`   | Sun-Sat            | The short name of the day of the week   |
 | `ddd` | Sunday-Saturday  | The name of the day of the week       |
 | `H`    | 0-23 AM/PM            | The hour with AM/PM                             |
