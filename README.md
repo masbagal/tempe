@@ -1,13 +1,13 @@
 
 <center>
 <img src='logo/tempe.png' height='120' align="center" alt='Tempe Logo' />
+
+
+### Featherlight (2kB) helper for Javascript date formatting
+
+[![min](https://img.shields.io/bundlephobia/min/tempe)](https://bundlephobia.com/result?p=tempe) [![min](https://img.shields.io/bundlephobia/minzip/tempe)](https://bundlephobia.com/result?p=tempe)
 </center>
 
-> Featherlight (< 2kB) helper for Javascript date formatting
-
-https://badgen.net/badge//bundlephobia/min/tempe
-
-https://badgen.net/badge//bundlephobia/minzip/tempe
 
 Sometimes all you need is just a simple date formatting without all of those super powers.
 
