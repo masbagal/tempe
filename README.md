@@ -3,7 +3,7 @@
 <img src='logo/tempe.png' height='120' align="center" alt='Tempe Logo' />
 
 
-### Featherlight (2kB) helper for Javascript date formatting
+> Featherlight (2kB) helper for Javascript date formatting
 
 [![min](https://img.shields.io/bundlephobia/min/tempe)](https://bundlephobia.com/result?p=tempe) [![min](https://img.shields.io/bundlephobia/minzip/tempe)](https://bundlephobia.com/result?p=tempe)
 </center>
