@@ -5,6 +5,10 @@
 
 > Featherlight (< 2kB) helper for Javascript date formatting
 
+https://badgen.net/badge//bundlephobia/min/tempe
+
+https://badgen.net/badge//bundlephobia/minzip/tempe
+
 Sometimes all you need is just a simple date formatting without all of those super powers.
 
 Name is a play from [tempus](https://en.wikipedia.org/wiki/Tempus), Latin word meaning time  and [tempe](https://en.wikipedia.org/wiki/Tempeh) an Indonesian traditional food.
